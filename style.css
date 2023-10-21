@@ -1,3 +1,198 @@
 *{
+    margin: 0px;
+    padding: 0px;
+    font-family: DM Sans;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+#section-left{
+    padding: 10px;
+}
+#create-playlist{
+    width:25px;
+    height: 25px;
+    background-color: white;
+}
+.hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero_section-sec1{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+.arrow-div{
+    background-color: #131313;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    margin: 10px;
+}
+#user-profile{
     background-color: black;
+    width:147px;
+    height:41px;
+    border: none;
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:16px;
+    right:10px;
+}
+h1{
+    width: 100%;
+    text-align: left;
+    position: relative;
+    left:30px;
+    margin-top: 20px;
+}
+.hero_section-sec2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.catalog{
+    width: 280px;
+    height: 80px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-inline: 5px;
+}
+.catalog>h5{
+    margin-right: 60px;
+}
+.hero_section-sec3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section-sec3>h3{
+    position: relative;
+    left:25px;
+}
+.hero_section-sec3>p{
+    position: relative;
+    right:10px;
+    font-size: 13px;
+}
+#liked-songs{
+    width:80px;
+    height:80px;
+    background-image: url(Media/Rectangle\ 2\ \(1\).svg);
+    text-align: center;
+}
+#liked-songs>i{
+    position: relative;
+    top:30px;
+}
+/* .hero_section-sec4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+.sec4-row1,.sec4-row2{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: -180px;
+}
+.show-catalog>p{
+    font-size: 10px;
+}
+.show-catalog>img{
+    width:150px;
+    height: 150px;
+}
+.show-catalog:first-child{
+    margin-inline: 25px;
+}
+.player{
+    background-color: #181818;
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+#player>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player-sec1>*,.player-sec2>*{
+    padding-inline: 10px;
+}
+#song-controls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#song-controls>div{
+    display: flex;
+    align-items: center;
+}
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #1ED760;
+    text-align: right;
+}
+#footer>a{
+    color: white;
+    background-color: #1ED760;
+    text-decoration: none;
+    padding-inline: 5px;
+}
+.spotify-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>div>a{
+    color: white;
+    text-decoration: none;
+}
+.spotify-nav>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.spotify-nav>div:first-child{
+    background-color: #282828;
 }
