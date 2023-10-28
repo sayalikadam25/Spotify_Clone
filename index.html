@@ -10,137 +10,142 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 </head>
 <body>
-    <section id="section-left" style="background-color: #000000;">
-    <header>
-        <img src="Media/Spotify_logo.png" alt="Image" width="200px" height="60px">
-        <nav class="spotify-nav">
-            <div>
-                <i class="fa-solid fa-house" style="color: #edeff2;"></i>
-                <a href="#Home">Home</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-magnifying-glass" style="color: #eff1f6;"></i>
-                <a href="#Search">Search</a>
-            </div>
-            <div>
-                <img src="./Media/library.svg" alt="library_icon">
-                <a href="Library">Your Library</a>
-            </div>  
-        </nav>
-    </header>
-    <section id="sidebar" class="sidebar" style="color: white;">
-        <div>
-            <div id="create-playlist">
-                <img src="Media/fi-ss-plus-small.svg" alt="image">
-            </div>
-            <span>Create Playlist</span>
-        </div>
-        <div>
-            <img src="Media/fi-ss-heart.svg" alt="image">
-            <span>Liked Songs</span>
-        </div>
-        <div>
-            <img src="Media/gg_media-podcast.svg" alt="image">
-            <span>Your Episodes</span>
-        </div>
-        <div><span>Fav</span></div>
-        <div><span>Daily Mix 1</span></div>
-        <div><span>Discover Weekly</span></div>
-        <div><span>Malayalam</span></div>
-        <div><span>Dance/Electronix Mix</span></div>
-        <div><span>EDM/Popular</span></div>
-        <div>
-            <img src="Media/grommet-icons_install-option.svg" alt="image">
-            <span>Install App</span>
-        </div>
-    </section>
-    </section>
-    <section id="hero_section" class="hero_section" style="color: white; background-color: #212121;">
-        <div class="hero_section-sec1">
-            <div id="arrows">
-                <div class="arrow-div">
-                    <img src="Media/fi-rr-angle-small-left.svg" alt="image">
+    <section class="container">
+        <section id="section-left" style="background-color: #000000;">
+            <header>
+                <img src="Media/Spotify_logo.png" alt="Image" width="150px" height="45px">
+                <nav class="spotify-nav">
+                    <div class="home">
+                        <img src="Media/fi-ss-home.svg" alt="image">
+                        <a href="#Home">Home</a>
+                    </div>
+                    <div class="home">
+                        <img src="Media/fi-rs-search.svg" alt="image">
+                        <a href="#Search">Search</a>
+                    </div>
+                    <div class="home">
+                        <img src="./Media/library.svg" alt="library_icon">
+                        <a href="Library">Your Library</a>
+                    </div>  
+                </nav>
+            </header>
+            <section id="sidebar" class="sidebar" style="color: white;">
+                <div class="sidebar-div1">
+                    <div id="create-playlist">
+                        <img src="Media/fi-ss-plus-small.svg" alt="image">
+                    </div>
+                    <span style="margin-left:10px;">Create Playlist</span>
                 </div>
-                <div class="arrow-div">
-                    <img src="Media/fi-rr-angle-small-right.svg" alt="image">
-                </div>   
-            </div>
-            <div id="user-profile">
-                <img src="Media/Ellipse 3.svg" alt="user-pic">
-                <p>Angel</p>
-                <img src="Media/fi-ss-caret-down.svg" alt="down-arrow">
-            </div>
-        </div>
-        <h1>Good Morning</h1>
-        <div class="hero_section-sec2">
-            <div class="catalog">
-                <div id="liked-songs">
-                    <i class="fa-solid fa-heart" style="color: #e8ecf2;"></i>
+                <div class="liked">
+                    <img src="Media/Group 2.svg" alt="image" width="28px" height="28px">
+                    <span style="margin-left:10px;">Liked Songs</span>
                 </div>
-                <h5>Liked Songs</h5>
+                <div class="sidebar-div2">
+                    <div class="podcast">
+                        <img src="Media/gg_media-podcast.svg" alt="image">
+                    </div>
+                    <span style="margin-left:10px;">Your Episodes</span>
+                </div>
+                <div style="margin-top:30px;">Fav</div>
+                <div>Daily Mix 1</div>
+                <div>Discover Weekly</div>
+                <div>Malayalam</div>
+                <div>Dance/Electronix Mix</div>
+                <div>EDM/Popular</div>
+                <div class="install">
+                    <img src="Media/grommet-icons_install-option.svg" alt="image">
+                    <span style="margin-left:10px;">Install App</span>
+                </div>
+            </section>
+        </section>
+        <section id="hero_section" class="hero_section" style="color: white; background-color: #212121;">
+            <div class="hero_section-sec1">
+                <div id="arrows">
+                    <div class="arrow-div">
+                        <img src="Media/fi-rr-angle-small-left.svg" alt="image">
+                    </div>
+                    <div class="arrow-div">
+                        <img src="Media/fi-rr-angle-small-right.svg" alt="image">
+                    </div>   
+                </div>
+                <div id="user-profile">
+                    <img src="Media/Ellipse 3.svg" alt="user-pic">
+                    <p>Angel</p>
+                    <img src="Media/fi-ss-caret-down.svg" alt="down-arrow">
+                </div>
             </div>
-            <div class="catalog">
-                <img src="Media/Rectangle 2.svg" alt="heart_image" width="80px" height="80px">
-                <h5>Netflix Playlist</h5>
+            <h1>Good Morning</h1>
+            <div class="hero_section-sec2">
+                <div class="catalog">
+                    <div id="liked-songs">
+                        <i class="fa-solid fa-heart" style="color: #e8ecf2;"></i>
+                    </div>
+                    <h5>Liked Songs</h5>
+                </div>
+                <div class="catalog">
+                    <img src="Media/Rectangle 2.svg" alt="heart_image" width="80px" height="80px">
+                    <h5>Netflix Playlist</h5>
+                </div>
+                <div class="catalog">
+                    <img src="Media/Rectangle 2_KDA.svg" alt="heart_image" width="80px" height="80px">
+                    <h5>K/DA</h5>
+                </div>
+                <div class="catalog">
+                    <img src="Media/Rectangle 2_dance.svg" alt="heart_image" width="80px" height="80px">
+                    <h5>Dance/Electronic Mix</h5>
+                </div>
             </div>
-            <div class="catalog">
-                <img src="Media/Rectangle 2_KDA.svg" alt="heart_image" width="80px" height="80px">
-                <h5>K/DA</h5>
+            <div class="hero_section-sec3">
+                <h3>Shows you might like</h3>
+                <p>SEE ALL</p>
             </div>
-            <div class="catalog">
-                <img src="Media/Rectangle 2_dance.svg" alt="heart_image" width="80px" height="80px">
-                <h5>Dance/Electronic Mix</h5>
+            <div class="sec4-row1">
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16.svg" alt="image">
+                    <h5>Weekly Motivatio..</h5>
+                    <p>Ben Ina Scott</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_2.svg" alt="image">
+                    <h5>MEDITATION SELF</h5>
+                    <p>Ibn Hussain Aleen</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_3.svg" alt="image">
+                    <h5>Words beyond act...</h5>
+                    <p>Samuel Scott</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_4.svg" alt="image">
+                    <h5>The Alexa Show</h5>
+                    <p>Adriana Tom</p>
+                </div>
             </div>
-        </div>
-        <div class="hero_section-sec3">
-            <h3>Shows you might like</h3>
-            <p>SEE ALL</p>
-        </div>
-        <div class="sec4-row1">
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16.svg" alt="image">
-                <h5>Weekly Motivatio..</h5>
-                <p>Ben Ina Scott</p>
+            <div class="sec4-row2">
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_4.svg" alt="image">
+                    <h5>The Alexa Show</h5>
+                    <p>Adriana Tom</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_4.svg" alt="image">
+                    <h5>The Alexa Show</h5>
+                    <p>Adriana Tom</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_4.svg" alt="image">
+                    <h5>The Alexa Show</h5>
+                    <p>Adriana Tom</p>
+                </div>
+                <div class="show-catalog">
+                    <img src="Media/Rectangle 16_4.svg" alt="image">
+                    <h5>The Alexa Show</h5>
+                    <p>Adriana Tom</p>
+                </div>
             </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_2.svg" alt="image">
-                <h5>MEDITATION SELF</h5>
-                <p>Ibn Hussain Aleen</p>
-            </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_3.svg" alt="image">
-                <h5>Words beyond act...</h5>
-                <p>Samuel Scott</p>
-            </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_4.svg" alt="image">
-                <h5>The Alexa Show</h5>
-                <p>Adriana Tom</p>
-            </div>
-        </div>
-        <div class="sec4-row2">
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_4.svg" alt="image">
-                <h5>The Alexa Show</h5>
-                <p>Adriana Tom</p>
-            </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_4.svg" alt="image">
-                <h5>The Alexa Show</h5>
-                <p>Adriana Tom</p>
-            </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_4.svg" alt="image">
-                <h5>The Alexa Show</h5>
-                <p>Adriana Tom</p>
-            </div>
-            <div class="show-catalog">
-                <img src="Media/Rectangle 16_4.svg" alt="image">
-                <h5>The Alexa Show</h5>
-                <p>Adriana Tom</p>
-            </div>
-        </div>
+        </section>
     </section>
+    
     <section id="player" class="player" style="color: white;">
         <div class="player-sec1" style="background-color: #181818;">
             <img src="Media/Rectangle 20.svg" alt="image">

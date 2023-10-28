@@ -3,20 +3,27 @@
     padding: 0px;
     font-family: DM Sans;
 }
-body{
+.container{
     display: flex;
     justify-content: center;
     align-items: stretch;
 }
 #section-left{
     padding: 10px;
+    flex:2;
 }
 #create-playlist{
-    width:25px;
-    height: 25px;
+    width:28px;
+    height: 28px;
     background-color: white;
 }
+#create-playlist>img{
+    position: relative;
+    top:-2px;
+    left:-2px;
+}
 .hero_section{
+    flex:10;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -180,7 +187,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 }
 nav>div>a{
     color: white;
@@ -188,11 +195,62 @@ nav>div>a{
 }
 .spotify-nav>div{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 5px;
 }
 .spotify-nav>div:first-child{
     background-color: #282828;
+    width:95%;
+}
+header>img{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+.home>img{
+    width:22px;
+    height:24px;
+    margin-left: 10px;
+}
+.home>a{
+    margin-left:15px;
+}
+.sidebar-div1{
+    display: flex;
+    align-items: center;
+}
+.podcast{
+    width:28px;
+    height:28px;
+    background-color: #004638;
+}
+.podcast>img{
+    position: relative;
+    top:2px;
+    left:2px;
+}
+.liked{
+    display: flex;
+    align-items: center;
+}
+.sidebar-div2{
+    display: flex;
+    align-items: center;
+}
+.sidebar{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.sidebar>div{
+    margin-top: 15px;
+}
+.install{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
 }
